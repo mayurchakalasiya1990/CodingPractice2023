@@ -1,0 +1,4 @@
+# Project exclude paths
+/corejava/target/
+/DesignPattern/target/
+/DFS/target/
