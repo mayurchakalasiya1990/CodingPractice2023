@@ -1,18 +1,16 @@
 package org.example.java9;
 
-public interface InterfacePrivateMethod {
+interface InterfaceExample {
 
-
-
-    private int sumInt(int a, int b){
+    private static int sumInt(int a, int b){
         return a+b;
     }
 
-    private double sumDouble(double a, double b){
+    private static double sumDouble(double a, double b){
         return a+b;
     }
 
-    default double sum(String sumType, double a, double b){
+    static double sum(String sumType, double a, double b){
 
         double c=0;
         if(sumType.equals("int")){
@@ -23,4 +21,12 @@ public interface InterfacePrivateMethod {
         return c;
     }
 
+
+
+}
+
+public class InterfacePrivateMethod{
+    public static void main(String[] args) {
+        System.out.println(InterfaceExample.sum("int",10,20));
+    }
 }
