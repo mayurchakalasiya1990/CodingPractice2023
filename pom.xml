@@ -12,6 +12,7 @@
         <module>DFS</module>
         <module>DesignPattern</module>
         <module>corejava</module>
+        <module>UnitTesting</module>
     </modules>
 
     <properties>

@@ -10,6 +10,7 @@
         <module name="DFS" />
         <module name="corejava" />
         <module name="DesignPattern" />
+        <module name="UnitTesting" />
       </profile>
     </annotationProcessing>
   </component>
