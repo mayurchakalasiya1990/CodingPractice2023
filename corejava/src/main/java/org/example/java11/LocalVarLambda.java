@@ -10,5 +10,6 @@ public class LocalVarLambda {
         String str= "Mayur Chakalasiya";
         System.out.println(toString.apply(str));
         System.out.println(toString.apply(null));
+        //String _ = "";
     }
 }

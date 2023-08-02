@@ -14,12 +14,12 @@ class B1 extends  A1{
 
 }
 
-class C1 extends  A1{
+class C1 extends  B1{
 
 }
 public class GenericExtendExample {
     public static void main(String[] args) {
-        List<? extends A1> list= new ArrayList<>();
-        //list.add();
+        List<? extends X1> list= new ArrayList();
+     //   list.add(new A1());
     }
 }

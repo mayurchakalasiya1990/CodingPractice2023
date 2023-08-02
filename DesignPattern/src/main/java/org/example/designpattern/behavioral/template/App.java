@@ -7,7 +7,7 @@ public class App {
 
         System.out.println("==========================================");
 
-        BaseGameLoader diabloLoader = new DiabloLoader();
+        BaseGameLoader diabloLoader = new WorldOfWarcraftLoader();
         diabloLoader.load();
 
     }
