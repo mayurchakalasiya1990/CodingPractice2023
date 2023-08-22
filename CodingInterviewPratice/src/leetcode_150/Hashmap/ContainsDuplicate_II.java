@@ -1,4 +1,4 @@
-package leetcode_150;
+package leetcode_150.Hashmap;
 
 import java.util.*;
 
@@ -27,7 +27,7 @@ Constraints:
 -109 <= nums[i] <= 109
 0 <= k <= 105
  */
-public class ContainsDuplicateII {
+public class ContainsDuplicate_II {
 
     public static void main(String[] args) {
         int[] nums = {1,0,1,1};

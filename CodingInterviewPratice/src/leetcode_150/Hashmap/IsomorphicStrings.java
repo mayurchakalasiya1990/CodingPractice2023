@@ -1,4 +1,4 @@
-package leetcode_150;
+package leetcode_150.Hashmap;
 
 /*
 Given two strings s and t, determine if they are isomorphic.
