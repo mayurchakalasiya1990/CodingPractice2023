@@ -1,4 +1,4 @@
-package leetcode_150;
+package leetcode_150.array;
 
 import java.util.Arrays;
 
@@ -16,7 +16,7 @@ Output: [3,99,-1,-100]
 0 <= k <= 105
 
  */
-public class Problem1 {
+public class RotateArray {
 
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5,6,7} ;
@@ -35,17 +35,6 @@ public class Problem1 {
             nums[to] = temp;
             from++;
             to--;
-        }
-    }
-
-    private static void rotateArrayByK(int k, int[] nums) {
-        int tmp = 0,  index=-1;
-        for (int j = 0; j < k; j++) {
-            int lastNumber = nums[nums.length-1];
-            for (int i = nums.length-1; i>0 ; i--) {
-                nums[i] = nums[i-1];
-            }
-            nums[0]=lastNumber;
         }
     }
 }
